@@ -1,18 +1,39 @@
+<<<<<<< HEAD
 h1 {
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
 }
 
+=======
+>>>>>>> cabecera
 body {
   background-color: antiquewhite;
+  box-sizing: border-box;
 }
 
 #container {
+  text-align: center;
   margin: 0 auto;
+  padding: 0;
   width: 70%;
-  padding: 1rem;
   border: 2px solid black;
+}
+
+#cabecera {
+  text-align: left;
+  font-weight: bold;
+  color: white;
+  background-color: #33a;
+  margin: 0;
+  padding: 0.4em;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+#cabecera #tagline {
+  padding-left: 1em;
+  font-weight: normal;
+  font-size: 0.8rem;
 }
 
 #container h1 {
