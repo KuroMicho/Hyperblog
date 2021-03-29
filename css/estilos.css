@@ -2,4 +2,11 @@ h1 {
   font-size: 20px;
   font-family: arial, sans-serif;
   text-align: center;
+  margin: auto;
+  padding-top: 2rem;
+  position: relative;
+}
+
+body {
+  background-color: antiquewhite;
 }
