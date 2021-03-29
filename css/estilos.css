@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-h1 {
-  font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-}
-
-=======
->>>>>>> cabecera
 body {
   background-color: antiquewhite;
   box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #container {
@@ -38,12 +31,10 @@ body {
 
 #container h1 {
   font-size: 24px;
-  font-family: "Lucida Sans";
 }
 
 #post p {
   text-align: left;
   padding: 16px;
-  font-family: arial;
   font-size: 16px;
 }
