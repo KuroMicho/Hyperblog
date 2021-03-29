@@ -2,12 +2,27 @@ h1 {
   font-size: 20px;
   font-family: arial, sans-serif;
   text-align: center;
-  margin: auto;
-  padding-top: 2rem;
-  position: relative;
 }
 
 body {
   background-color: antiquewhite;
-  margin: auto; /* prueba de reset head */
+}
+
+#container {
+  margin: 0 auto;
+  width: 70%;
+  padding: 1rem;
+  border: 2px solid black;
+}
+
+#container h1 {
+  font-size: 24px;
+  font-family: "Lucida Sans";
+}
+
+#post p {
+  text-align: left;
+  padding: 16px;
+  font-family: arial;
+  font-size: 16px;
 }
