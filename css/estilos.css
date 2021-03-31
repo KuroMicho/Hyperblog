@@ -1,40 +1,119 @@
-body {
-  background-color: antiquewhite;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  -webkit-box-sizing: border-box;
 }
 
-#container {
-  text-align: center;
-  margin: 0 auto;
-  padding: 0;
-  width: 70%;
-  border: 2px solid black;
-}
-
-#cabecera {
-  text-align: left;
+h1 {
   font-weight: bold;
-  color: white;
-  background-color: #33a;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+body {
+  font-family: sans-serif;
   margin: 0;
-  padding: 0.4em;
-  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+  padding: 0;
 }
 
-#cabecera #tagline {
-  padding-left: 1em;
-  font-weight: normal;
-  font-size: 0.8rem;
+.container {
+  height: 60px;
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
 }
 
-#container h1 {
-  font-size: 24px;
+.container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  height: 60px;
+  background-color: #42a;
 }
 
-#post p {
-  text-align: left;
-  padding: 16px;
-  font-size: 16px;
+.container .header h1 {
+  padding: 0 0 0 10px;
+  margin: auto;
+}
+
+.container .header p {
+  padding: 10px;
+  margin: auto;
+  color: aliceblue;
+}
+
+.frase {
+  padding: 0 1em;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.container .logo {
+  max-width: 250px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.container .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 60px;
+}
+
+.container .logo a img {
+  max-width: 100%;
+  max-height: 60px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #3ae;
+  padding: 0.5em;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+main {
+  margin: auto;
+  padding: 1em;
+}
+
+@media only screen and (max-width: 650px) {
+  .container {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .container .logo {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
 }
