@@ -6,4 +6,6 @@ CHERRY PICK
 
 INCLUYE EJEMPLOS EN WINDOWS, LINUX Y MAC
 
+disponible para todas las edades
+
 Probando conocimientos de git remote, git push, git pull, etc...
